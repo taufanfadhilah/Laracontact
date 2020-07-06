@@ -1,5 +1,4 @@
 <div class="card my-2">
-    <img src="{{ $contact->avatar }}" alt="" class="card-img-top" style="height: 200px" />
     <div class="card-body">
         <h5 class="card-title">
             <a href="{{ route('contact.show', $contact->id) }}">{{ $contact->name }}</a>
